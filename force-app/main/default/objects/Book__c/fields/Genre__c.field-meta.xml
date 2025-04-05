@@ -1,0 +1,49 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Genre__c</fullName>
+    <label>Genre</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fiction</fullName>
+                <default>false</default>
+                <label>Fiction</label>
+            </value>
+            <value>
+                <fullName>Non-Fiction</fullName>
+                <default>false</default>
+                <label>Non-Fiction</label>
+            </value>
+            <value>
+                <fullName>Science Fiction</fullName>
+                <default>false</default>
+                <label>Science Fiction</label>
+            </value>
+            <value>
+                <fullName>Mystery</fullName>
+                <default>false</default>
+                <label>Mystery</label>
+            </value>
+            <value>
+                <fullName>Biography</fullName>
+                <default>false</default>
+                <label>Biography</label>
+            </value>
+            <value>
+                <fullName>Self Help</fullName>
+                <default>false</default>
+                <label>Self Help</label>
+            </value>
+            <value>
+                <fullName>Business</fullName>
+                <default>false</default>
+                <label>Business</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+
+.slds-box {
+    background-color: #f3f3f3;
+}
+
+dl.slds-list_horizontal dt {
+    width: 30%;
+    padding: 0.5rem;
+}
+
+dl.slds-list_horizontal dd {
+    width: 70%;
+    padding: 0.5rem;
+}

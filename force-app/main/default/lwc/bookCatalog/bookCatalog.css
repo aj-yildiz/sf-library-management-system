@@ -1,0 +1,15 @@
+
+.book-card {
+    height: 100%;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.book-card:hover {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.slds-badge {
+    text-transform: capitalize;
+}

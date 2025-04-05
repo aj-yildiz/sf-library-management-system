@@ -1,0 +1,9 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CheckoutDate__c</fullName>
+    <label>Checkout Date</label>
+    <required>true</required>
+    <type>DateTime</type>
+    <defaultValue>NOW()</defaultValue>
+</CustomField>
