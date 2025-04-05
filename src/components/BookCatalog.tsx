@@ -86,14 +86,14 @@ const BookCatalog = ({ books, members, transactions, onCheckout, onReturn }: Boo
             
             <div className="w-full sm:w-40">
               <Select
-                value={filters.availability || ""}
+                value={filters.availability || "all"}
                 onValueChange={(value) => handleFilterChange("availability", value)}
               >
                 <SelectTrigger>
                   <SelectValue placeholder="Availability" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Status</SelectItem>
+                  <SelectItem value="all">All Status</SelectItem>
                   <SelectItem value="available">Available</SelectItem>
                   <SelectItem value="checked-out">Checked Out</SelectItem>
                 </SelectContent>
